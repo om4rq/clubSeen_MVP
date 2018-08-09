@@ -3,8 +3,9 @@
     <div class="container-fluid" id="app">
        <div class="row">
         <div class="col-xs-12">
-            <div style="float:right; margin-top:20px; margin-right: 15px">
-                <input @keydown.enter="submit" v-model="inputAddress" placeholder="Enter club address" type="text">
+            <div style="float:right; margin-top:20px;margin-bottom: -50px; margin-right: 15px">
+            <img src="/src/img/search.PNG" style="height: 50px" alt="">
+
             </div>
         </div>
        </div>
@@ -77,19 +78,6 @@
                                     </div>
                                 </div>
                             </div>
-                    </div>
-
-                    <div class="row" style="margin-top: 1.75em">
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <div class="col-xs-3">
-                                <p style="text-align: center; background-color: antiquewhite; padding-right: 5px; padding-left: 5px;  background-clip: content-box; height: 7em">Review<br>Profile<br>Image</p>
-                            </div>
-                            <button @click="increase">inc</button>
-                            <button @click="decrease">Dec</button>
-                            <p>{{counter+1}}</p>
-                            <p>{{trt[0].club_name}}</p>
-<!--                            <div class="col-xs-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro illo, temporibus sed! Qui.Lorem ipsum dolor sit amet, consectetur adipisicing.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, placeat... <a href="#">Read More</a></div>-->
-                        </div>
                     </div>
                 </div>
             </div>
