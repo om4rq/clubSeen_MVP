@@ -1,0 +1,218 @@
+a,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: rgb(255, 255, 255, .75);
+    color: rgb(255, 255, 255 .5);
+    text-decoration: none;
+}
+
+.clubPicCard > p {
+    font-size: 2.2em
+}
+
+.homePanelPic {
+    background-size: cover;
+    overflow: hidden;
+    /*    background: linear-gradient(#9F79EF, #665DE7);*/
+    margin-top: 0;
+    margin-bottom: 0;
+    /*    filter: blur(2px);*/
+}
+
+#desCard {
+    padding: 0;
+    /*    background: radial-gradient(#424649, #2C3033);*/
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#desCard a {
+    color: black;
+}
+
+}
+
+#clubNamePanel {
+    text-align: center;
+}
+
+#clubPicCard {
+    padding: 0;
+    background-image: url(../img/violet_vibe.jpg);
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.overlay {
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0, .35);
+    border-radius: 25px;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+.attributes {
+    color: white;
+    font-weight: 800;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0vh;
+    left: 0em;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+    opacity: .9;
+}
+
+.attributes p:not(.middle) {
+    margin: 0;
+    cursor: default
+}
+
+.attributes h1 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6em;
+    opacity: 1;
+
+}
+
+#clubPicCard .attributes .middle {
+    background-color: rgb(0, 0, 0, .5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    padding: 50 px
+}
+
+#clubPicCard .attributes .bottom-left {
+    position: absolute;
+    margin: 2em;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+}
+
+#clubPicCard .attributes .bottom-right {
+    position: absolute;
+    margin: 2em;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+#clubPicCard .attributes .top-left {
+    position: absolute;
+    margin: 2em;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+#clubPicCard .attributes .top-right {
+    margin: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#desCard .desDetails h1,
+p {
+    margin: 5px;
+}
+
+.rating-attribute {
+    display: inline-block;
+}
+
+
+@media (max-width: 992px) {
+    #clubPicCard {
+        height: 100%;
+    }
+    .homePanel {
+        height: 50vh;
+    }
+    .homePanelPic {
+        padding-top: 7vh;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url(../img/Bottle-full-01.svg);
+        background-size: cover;
+        height: 100vh;
+        background-position: top;
+    }
+    .homePanel {
+        height: 100vh;
+    }
+    .homePanelPic {
+        /*        padding-top: 18vh;*/
+        padding-top: 18.2vh;
+        padding-bottom: 15vh;
+        border-left: 30px solid #282D42;
+    }
+    .homePanelDes {
+        padding-top: 18.2vh;
+        padding-bottom: 15vh;
+        padding-left: 35px !important;
+    }
+    #clubPicCard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    #clubPicCard,
+    #desCard {
+        height: 95%;
+        width: 100%;
+
+    }
+
+    #ClubSeen_Score {
+        float: left
+    }
+
+    .desDetails {
+        border-bottom: 2px solid #E51565;
+        margin-bottom: 20px;
+    }
+
+    #clubName {
+        font-weight: 600;
+    }
+    #clubSeen_data p {
+        cursor: default;
+    }
+
+    .sr-only {
+        position: relative;
+    }
+
+    #serviceValue {
+        max-width: 100%
+    }
