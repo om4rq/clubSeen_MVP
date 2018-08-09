@@ -4,7 +4,7 @@
        <div class="row">
         <div class="col-xs-12">
             <div style="float:right; margin-top:20px;margin-bottom: -50px; margin-right: 15px">
-            <img src="/src/img/search.PNG" style="height: 50px" alt="">
+            <img src="src/img/search.jpg" style="height: 50px; width: auto" alt="">
 
             </div>
         </div>
